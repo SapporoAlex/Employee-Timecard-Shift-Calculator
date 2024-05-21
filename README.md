@@ -1,4 +1,4 @@
-# Employee Time Card App and Shift Calculator
+# Employee Timecard App and Shift Calculator
 ## Overview
 This repository contains an Employee Time Card App and Shift Calculator designed to efficiently manage employee shifts and calculate total hours worked. The application is divided into two main components:
 
