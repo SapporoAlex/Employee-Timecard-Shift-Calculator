@@ -2,16 +2,16 @@
 ## Overview
 This repository contains an Employee Time Card App and Shift Calculator designed to efficiently manage employee shifts and calculate total hours worked. The application is divided into two main components:
 
-timecard.py: The main application used by employees to log their working hours.
-admin.py: The administration module for adding, removing, and editing staff details, and calculating total hours worked.
+タイムカード.py: The main application used by employees to log their working hours.
+アドミン.py: The administration module for adding, removing, and editing staff details, and calculating total hours worked.
 Additionally, the repository includes a batch file to install dependencies and an HTML file for usage instructions.
 
 ## Features
-### Timecard Module (timecard.py)
+### Timecard Module (タイムカード.py)
 Clock In/Clock Out: Employees can log their working hours by clicking their respective buttons.
 Visual Feedback: The application provides visual feedback and confirmation messages upon clocking in and out.
 Data Storage: Working hours are stored in an Excel file, organized by month and employee.
-### Admin Module (admin.py)
+### Admin Module (アドミン.py)
 Staff Management: Administrators can add, remove, and edit staff details.
 Hour Calculation: Automatically calculates total hours worked for each employee and updates the Excel sheet.
 Menu Interface: Simple text-based menu for navigating the administrative functions.
@@ -33,12 +33,12 @@ bash```
 Running the Application
 Timecard Module:
 bash```
-python timecard.py
+python タイムカード.py
 ```
 
 Admin Module:
 bash```
-python admin.py
+python アドミン.py
 ```
 
 ## Detailed Instructions
@@ -52,10 +52,10 @@ Calculate total hours worked for each employee.
 bash```
 employee-timecard-app/
 │
-├── timecard.py            # Main application file for employees
-├── admin.py               # Admin module for managing staff and calculating hours
+├── タイムカード.py            # Main application file for employees
+├── アドミン.py               # Admin module for managing staff and calculating hours
 ├── install_dependencies.bat  # Batch file for installing dependencies
-├── readme.html            # Detailed usage instructions
+├── Readme.html            # Detailed usage instructions
 ├── README.md              # This file
 └── requirements.txt       # List of dependencies (if needed)
 ```
