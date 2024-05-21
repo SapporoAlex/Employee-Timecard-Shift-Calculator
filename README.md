@@ -22,22 +22,22 @@ Clone the repository:
 git clone https://github.com/yourusername/employee-timecard-app.git
 ```
 Navigate to the project directory:
-bash```
+```bash
 cd employee-timecard-app
 ```
 Run the batch file to install dependencies:
-bash```
+```bash
 ./install_dependencies.bat
 ```
 ## Usage
 Running the Application
 Timecard Module:
-bash```
+```bash
 python タイムカード.py
 ```
 
 Admin Module:
-bash```
+```bash
 python アドミン.py
 ```
 
@@ -49,15 +49,15 @@ Log hours in the timecard module.
 Calculate total hours worked for each employee.
 
 ## File Structure
-bash```
+```bash
 employee-timecard-app/
 │
-├── タイムカード.py            # Main application file for employees
-├── アドミン.py               # Admin module for managing staff and calculating hours
-├── install_dependencies.bat  # Batch file for installing dependencies
-├── Readme.html            # Detailed usage instructions
-├── README.md              # This file
-└── requirements.txt       # List of dependencies (if needed)
+├── タイムカード.py          　 # Main application file for employees
+├── アドミン.py             　  # Admin module for managing staff and calculating hours
+├── install_dependencies.bat  　# Batch file for installing dependencies
+├── Readme.html            　　# Detailed usage instructions
+├── README.md             　　 # This file
+└── requirements.txt      　　 # List of dependencies (if needed)
 ```
 ## Contributing
 Fork the repository.
@@ -65,7 +65,6 @@ Create your feature branch (git checkout -b feature/your-feature).
 Commit your changes (git commit -am 'Add your feature').
 Push to the branch (git push origin feature/your-feature).
 Create a new Pull Request.
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
