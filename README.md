@@ -71,6 +71,8 @@ TC/
 ## ライセンス
 このプロジェクトはMITライセンスの下でライセンスされています。詳細については、LICENSEファイルを参照してください。
 
+<br>
+
 
 # Employee Timecard App and Shift Calculator
 ## Overview
