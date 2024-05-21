@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ページ内容の説明">
+    <meta name="keywords" content="HTML, CSS, JavaScript, 例">
+    <meta name="author" content="Your Name">
+    <title>ページタイトル</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+    <title>Timecard Read Me</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+    <h1>インストール</h1>
+    <h2>ステップ1</h2>
+    <p>最新バージョンの<a href="https://www.python.org/">Python</a>をダウンロードしてください。</p>
+    <h2>ステップ2</h2>
+    <p>インストールします。「Add python.exe to PATH」のチェックボックスを必ずチェックしてください。これによりPythonを正しく実行できます。</p>
+    <img src="Timecard/images/add path.jpg" alt="Add python.exe to PATH">
+    <h2>ステップ3</h2>
+    <p><em>installer.bat</em>を実行します。これにより、すべての依存関係が<em>Timecard</em>ディレクトリにインストールされます。</p>
+    <br>
+    <h1>使い方</h1>
+    <h2>スタッフリストの作成</h2>
+    <p>Timecardフォルダ内の<em>アドミン.py</em>プログラムを開き、スタッフメンバーを名前で追加します（英字と日本語の文字が使用可能です）。</p>
+    <h2>プログラムの起動</h2>
+    <p><em>タイムカード.py</em>ファイルを開きます。</p>
+    <img src="Timecard/images/tc_img.jpg" alt="タイムカードプログラム">
+    <p>スタッフリストに登録された各スタッフはここにボタンとして表示されます。出勤していないスタッフは薄い灰色で表示され、出勤しているスタッフは黄色でハイライトされます。現在時刻は画面上部に表示されます。<em>Esc</em>キーを押すか、画面右上の閉じるボタンをクリックして終了できます。</p>
+    <h2>保存</h2>
+    <p>出勤/退勤後、時間は即座にExcelに保存されます。一日に一回の出勤と退勤の記録ができます。一日に複数の出勤/退勤は、その日の前の記録を上書きします。このプログラムは、プログラムを閉じたり再起動したりしてもスタッフの出勤/退勤状況を記録し続けます。</p>
+    <h2>総勤務時間の計算</h2>
+    <p>これは<em>アドミン.py</em>プログラムで行えます。管理メニューで「5」を入力します。これにより、各日の総勤務時間と月の総勤務時間が計算され、各ページの「E2」セルに記録されます。</p>
+    <h2>記録へのアクセス</h2>
+    <p>シフト時間の記録は、その年の月に対応するExcelファイルに保存されます（例: 5月の場合は5）。これらのExcelファイルは<em>タイムカード.py</em>プログラムが各月に自動的に作成し、<em>tc2_assets</em>フォルダに保存されます。</p>
+    <h2>警告</h2>
+    <p>このプログラムのファイル/フォルダを削除したり移動したりしないでください。これらのファイルをより便利な場所に置きたい場合は、デスクトップにショートカットを作成することをお勧めします。<em>tc2_assets</em>フォルダ内のExcelファイルを変更しないようにしてください。変更する場合は、コピーを作成して変更してください。退社したスタッフはスタッフリストから削除されても、次の月のファイルには追加されませんが、Excelファイルのシートには残ります。</p>
+</div>
+</body>
+</html>
