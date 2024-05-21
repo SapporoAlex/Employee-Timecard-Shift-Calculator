@@ -97,7 +97,7 @@ git clone https://github.com/yourusername/employee-timecard-app.git
 ```
 Navigate to the project directory:
 ```bash
-cd employee-timecard-app
+cd TC
 ```
 Run the batch file to install dependencies:
 ```bash
