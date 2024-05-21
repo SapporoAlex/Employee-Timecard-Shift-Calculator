@@ -54,7 +54,7 @@ employee-timecard-app/
 │
 ├── タイムカード.py          　 # Main application file for employees
 ├── アドミン.py             　  # Admin module for managing staff and calculating hours
-├── install_dependencies.bat  　# Batch file for installing dependencies
+├── installer.bat  　# Batch file for installing dependencies
 ├── Readme.html            　　# Detailed usage instructions
 ├── README.md             　　 # This file
 └── requirements.txt      　　 # List of dependencies (if needed)
