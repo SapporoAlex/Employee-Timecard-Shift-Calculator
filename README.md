@@ -18,7 +18,7 @@ Menu Interface: Simple text-based menu for navigating the administrative functio
 
 ## Installation
 Clone the repository:
-bash```
+```bash
 git clone https://github.com/yourusername/employee-timecard-app.git
 ```
 Navigate to the project directory:
