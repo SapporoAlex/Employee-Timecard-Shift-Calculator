@@ -31,7 +31,7 @@ cd TC
 依存関係をインストールするためのバッチファイルを実行します：
 
 ```bash
-./install_dependencies.bat
+./installer.bat
 ```
 ## 使用法
 アプリケーションの実行方法
@@ -105,7 +105,7 @@ cd TC
 ```
 Run the batch file to install dependencies:
 ```bash
-./install_dependencies.bat
+./installer.bat
 ```
 ## Usage
 Running the Application
