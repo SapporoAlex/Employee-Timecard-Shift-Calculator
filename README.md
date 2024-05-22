@@ -1,3 +1,11 @@
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
 # 従業員タイムカードアプリとシフト計算機
 <p align="center"><i>(English below)</i></p><br>
 <center><img src="preview.gif" alt="Preview image"></center>
