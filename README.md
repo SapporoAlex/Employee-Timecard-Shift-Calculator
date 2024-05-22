@@ -1,6 +1,6 @@
 # 従業員タイムカードアプリとシフト計算機
 <p align="center"><i>(English below)</i></p><br>
-<center><img src="preview.gif"></center>
+<center><img src="preview.gif" alt="Preview image"></center>
 
 ## 概要
 このリポジトリには、従業員のシフトを効率的に管理し、総労働時間を計算するための従業員タイムカードアプリとシフト計算機が含まれています。このアプリケーションは、以下の2つの主要なコンポーネントに分かれています：
